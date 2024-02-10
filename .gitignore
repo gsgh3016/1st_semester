@@ -160,5 +160,5 @@ cython_debug/
 #.idea/
 
 Data
-scaler.pkl
-xgb_model.json
+Cache
+catboost_info
