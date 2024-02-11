@@ -18,7 +18,7 @@
     - Singular Value Decomposition
 
 ### 데이터
-- **GTZAN Dataset**: 10개 장르별로 30초 길이의 100곡, 총 1000곡의 음원 사용
+- [**GTZAN Dataset**](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification): 10개 장르별로 30초 길이의 100곡, 총 1000곡의 음원 사용
 - **전처리 기법**:
     - Chroma STFT
     - RMS
@@ -62,6 +62,25 @@ pip install -r requirements.txt
 
 ### 데이터 준비
 
-분석할 음원 파일을 Data 디렉토리(`graduation_final.ipynb` 실행 시 자동 생성)에 저장합니다.
+GTZAN: [https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification)
 
-    * 주의: 현재 시스템은 한 번에 1개의 음원 파일만 처리합니다. 추후 여러 파일을 동시에 처리할 수 있는 기능으로 업데이트될 예정입니다.
+#### GTZAN 데이터셋을 다운 받을 경우
+
+- 프로젝트 디렉토리에 GTZAN 데이터셋 파일 압축을 푸세요.
+
+#### GTZAN 데이터셋을 다운 받지 않은 경우
+
+- 데이터셋을 다운로드하기 위해서는 Kaggle 계정이 필요합니다. Kaggle 계정을 생성하고 API 키와 사용자 이름을 `.env` 파일에 입력하고 저장하세요.(`.env_sample` 참고)
+
+
+#### 분석할 음원 파일 준비
+
+- 분석할 음원 파일을 `Data` 디렉토리에 저장합니다. `graduation_final.ipynb` 실행 시 `Data` 디렉토리가 자동으로 생성됩니다.
+
+- **주의**: 현재 시스템은 한 번에 **1개의 음원 파일만 처리**합니다. 추후 여러 파일을 동시에 처리할 수 있는 기능으로 업데이트될 예정입니다.
+
+## 참고 자료 및 기록
+
+- 참고 코드: [링크](https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend/notebook)
+- 2022.01 ~ 2022.06: 참고 코드에 사용자 음원에 대해 장르 구분 및 유사 음원 추천(결과는 `docs/final_presentation.pdf` 참고.).
+- 2023.03 ~ 2024.02: 장르 구분 모델 / 유사 음원 추천 종류 다각화.
