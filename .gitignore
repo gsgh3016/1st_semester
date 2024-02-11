@@ -162,3 +162,5 @@ cython_debug/
 Data
 Cache
 catboost_info
+spring-semester-project
+*.zip
