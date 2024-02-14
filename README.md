@@ -4,7 +4,8 @@
 - 부산대학교 전자공학과 졸업과제 소스 코드입니다.
 - 프로젝트 기간: 2022년 1학기 (2022.01 ~ 2022.06)
 - 주요 내용: Music Genre Classification과 Music Recommendation 시스템 개발
-- 본 프로젝트는 [Andrada Olteanu, 빵형의 개발도상국](https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend/notebook)를 바탕으로 작성된 코드입니다.
+- 본 프로젝트는 [Andrada Olteanu, 빵형의 개발도상국](https://www.kaggle.com/code/andradaolteanu/work-w-audio-data-visualise-classify-recommend/notebook)를 바탕으로 작성됐습니다.
+- 기존 프로젝트 소스 코드는 [여기](https://colab.research.google.com/drive/18D1nzefCUrZLXEGI39yawWXrJbR4QZgE?usp=sharing)를 참고해주세요.
 
 ## 데이터 및 모델
 ### 모델
