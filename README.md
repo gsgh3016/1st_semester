@@ -32,10 +32,7 @@
     - Tempo
     - Mel-frequency cepstral coefficients (MFCC)
 
-## 개발 환경
-- **OS**: macOS Sonoma 14.2.1
-- **IDE**: Visual Studio Code (VSCode)
-- **가상환경**: Python `venv` 모듈 사용 권장
+    ![](https://img.shields.io/badge/OS-macOS_Sonoma_14.2.1-%23000000) ![](https://img.shields.io/badge/IDE-Visual_Studio_Code-%23007ACC) ![](https://img.shields.io/badge/가상환경-pyenv,_venv-%233776AB)
 
 ## 실행 방법
 
