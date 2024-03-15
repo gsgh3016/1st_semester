@@ -164,3 +164,4 @@ Cache
 catboost_info
 spring-semester-project
 *.zip
+.DS_Store
